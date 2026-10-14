@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(157, 216, 243); 
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.encabezado{
+    background-color: rgb(92, 159, 190);
+    font-family: monospace;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    z-index: 100;
+    border-radius:20px;
+    position: sticky;
+
+}
+
+.navegacion a{
+    color: aliceblue;
+    margin-left: 25px;
+
+}
+
+.img1{
+    width: 40%;
+    height: 40%; 
+    border-radius:20px;
+    object-fit: cover;
+}
+
+.video{
+    width: 40%;
+    height: 40%; 
+    border-radius:20px;
+    object-fit: cover;
+}
+
